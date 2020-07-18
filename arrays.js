@@ -4,14 +4,15 @@ var chocolateBars = [
   'kitkat',
   'skittles'
 ]
+
 var addElementToBeginningOfArray
 function addElementToBeginningOfArray([],n) {
-  const array = []
-  addElementToBeginningOfArray === array.unshift
+  var array = []
+  array.unshift(n)
   return array.unshift
 }
 var destructivelyAddElementToBeginningOfArray
 function destructivelyAddElementToBeginningOfArray([],n) {
-  const array = []
+  var array = []
   return [n, ... array]
 }
