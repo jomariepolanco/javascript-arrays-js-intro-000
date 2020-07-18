@@ -27,3 +27,9 @@ var chocolateBars = [
   'kitkat',
   'skittles'
 ]
+function addElementToBeginningOfArray(['hello'],n) {
+  return addElementToBeginningOfArray.unshift
+}
+function destructivelyAddElementToBeginningOfArray(['hello'], n) {
+
+}
