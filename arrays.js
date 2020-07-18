@@ -3,13 +3,11 @@ var chocolateBars = [
   'hungred grand',
   'kitkat',
   'skittles'
-]
+];
 
 var addElementToBeginningOfArray
-function addElementToBeginningOfArray([],n) {
-  const array = ['foo']
-  addElementToBeginningOfAray(array,n)
-  return addElementToBeginningOfArray.unshift
+function addElementToBeginningOfArray(array, element) {
+  return [element, array]
 }
 var destructivelyAddElementToBeginningOfArray
 function destructivelyAddElementToBeginningOfArray([],n) {
