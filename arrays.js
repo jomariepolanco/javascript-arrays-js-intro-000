@@ -7,8 +7,8 @@ var chocolateBars = [
 
 var addElementToBeginningOfArray
 function addElementToBeginningOfArray([],n) {
-  const array = []
-  addElementToBeginningOfArray === array.unshift(n)
+  const array = ['foo']
+  addElementToBeginningOfArray === array.unshift(1)
   return addElementToBeginningOfArray()
 }
 var destructivelyAddElementToBeginningOfArray
